@@ -14,9 +14,9 @@ import (
 	"github.com/samber/lo"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
 )
 
 func init() {

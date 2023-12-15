@@ -4,9 +4,9 @@
 package main
 
 import (
-	"github.com/aquasecurity/trivy/pkg/module/api"
-	"github.com/aquasecurity/trivy/pkg/module/serialize"
-	"github.com/aquasecurity/trivy/pkg/module/wasm"
+	"github.com/khulnasoft/tunnel/pkg/module/api"
+	"github.com/khulnasoft/tunnel/pkg/module/serialize"
+	"github.com/khulnasoft/tunnel/pkg/module/wasm"
 )
 
 const (

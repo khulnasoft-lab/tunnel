@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
 
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/images"
@@ -25,12 +25,12 @@ import (
 	testcontainers "github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	aimage "github.com/aquasecurity/trivy/pkg/fanal/artifact/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/applier"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	aimage "github.com/khulnasoft/tunnel/pkg/fanal/artifact/image"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/fanal/image"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 func configureTestDataPaths(t *testing.T, namespace string) (string, string) {

@@ -20,13 +20,13 @@ import (
 
 	"github.com/aquasecurity/memoryfs"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/log"
-	tapi "github.com/aquasecurity/trivy/pkg/module/api"
-	"github.com/aquasecurity/trivy/pkg/module/serialize"
-	"github.com/aquasecurity/trivy/pkg/scanner/post"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/utils"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	tapi "github.com/khulnasoft/tunnel/pkg/module/api"
+	"github.com/khulnasoft/tunnel/pkg/module/serialize"
+	"github.com/khulnasoft/tunnel/pkg/scanner/post"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/utils"
 )
 
 var (

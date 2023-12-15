@@ -5,8 +5,8 @@ import (
 
 	"github.com/google/go-containerregistry/pkg/name"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/image/daemon"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/image/daemon"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 func tryDockerDaemon(imageName string, ref name.Reference) (types.Image, func(), error) {

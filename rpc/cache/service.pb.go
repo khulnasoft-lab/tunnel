@@ -15,7 +15,7 @@ import (
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 
-	common "github.com/aquasecurity/trivy/rpc/common"
+	common "github.com/khulnasoft/tunnel/rpc/common"
 )
 
 const (

@@ -13,8 +13,8 @@ import (
 	"github.com/aquasecurity/tml"
 
 	"github.com/aquasecurity/table"
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 var (

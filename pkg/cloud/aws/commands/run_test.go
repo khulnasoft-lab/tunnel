@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/flag"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/flag"
 )
 
 func Test_Run(t *testing.T) {

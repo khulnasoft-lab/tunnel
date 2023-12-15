@@ -9,13 +9,13 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
+	"github.com/khulnasoft/tunnel/pkg/fanal/utils"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 
-	aos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
+	aos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
 )
 
 func init() {

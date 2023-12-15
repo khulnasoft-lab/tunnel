@@ -19,16 +19,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/all"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	aimage "github.com/aquasecurity/trivy/pkg/fanal/artifact/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/handler/all"
-	"github.com/aquasecurity/trivy/pkg/fanal/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/all"
+	"github.com/khulnasoft/tunnel/pkg/fanal/applier"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	aimage "github.com/khulnasoft/tunnel/pkg/fanal/artifact/image"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/handler/all"
+	"github.com/khulnasoft/tunnel/pkg/fanal/image"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 var update = flag.Bool("update", false, "update golden files")

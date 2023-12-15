@@ -16,9 +16,9 @@ import (
 	"golang.org/x/xerrors"
 
 	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
-	aos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	"github.com/aquasecurity/trivy/pkg/fanal/log"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	aos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	"github.com/khulnasoft/tunnel/pkg/fanal/log"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 var (

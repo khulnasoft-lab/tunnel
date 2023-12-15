@@ -10,13 +10,13 @@ import (
 	digest "github.com/opencontainers/go-digest"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/handler"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/fanal/handler"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/sbom"
 )
 
 type Artifact struct {

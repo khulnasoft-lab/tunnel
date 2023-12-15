@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	fixtures "github.com/aquasecurity/bolt-fixtures"
-	"github.com/aquasecurity/trivy-db/pkg/db"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
 )
 
 // InitDB initializes testing database.

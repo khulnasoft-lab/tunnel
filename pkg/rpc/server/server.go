@@ -7,13 +7,13 @@ import (
 	"github.com/google/wire"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/rpc"
-	"github.com/aquasecurity/trivy/pkg/scanner"
-	"github.com/aquasecurity/trivy/pkg/scanner/local"
-	"github.com/aquasecurity/trivy/pkg/types"
-	rpcCache "github.com/aquasecurity/trivy/rpc/cache"
-	rpcScanner "github.com/aquasecurity/trivy/rpc/scanner"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/rpc"
+	"github.com/khulnasoft/tunnel/pkg/scanner"
+	"github.com/khulnasoft/tunnel/pkg/scanner/local"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	rpcCache "github.com/khulnasoft/tunnel/rpc/cache"
+	rpcScanner "github.com/khulnasoft/tunnel/rpc/scanner"
 )
 
 // ScanSuperSet binds the dependencies for server

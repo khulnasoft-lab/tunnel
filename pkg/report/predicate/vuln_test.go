@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/report/predicate"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/clock"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/report/predicate"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func TestWriter_Write(t *testing.T) {

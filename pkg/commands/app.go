@@ -15,17 +15,17 @@ import (
 	"github.com/spf13/viper"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-db/pkg/metadata"
-	awscommands "github.com/aquasecurity/trivy/pkg/cloud/aws/commands"
-	"github.com/aquasecurity/trivy/pkg/commands/artifact"
-	"github.com/aquasecurity/trivy/pkg/commands/server"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	k8scommands "github.com/aquasecurity/trivy/pkg/k8s/commands"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/module"
-	"github.com/aquasecurity/trivy/pkg/plugin"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/metadata"
+	awscommands "github.com/khulnasoft/tunnel/pkg/cloud/aws/commands"
+	"github.com/khulnasoft/tunnel/pkg/commands/artifact"
+	"github.com/khulnasoft/tunnel/pkg/commands/server"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/flag"
+	k8scommands "github.com/khulnasoft/tunnel/pkg/k8s/commands"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/module"
+	"github.com/khulnasoft/tunnel/pkg/plugin"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 // VersionInfo holds the trivy DB version Info
@@ -476,7 +476,7 @@ func NewClientCommand(globalFlags *flag.GlobalFlagGroup) *cobra.Command {
 			return validateArgs(cmd, args)
 		},
 		RunE: func(cmd *cobra.Command, args []string) error {
-			log.Logger.Warn("'client' subcommand is deprecated now. See https://github.com/aquasecurity/trivy/discussions/2119")
+			log.Logger.Warn("'client' subcommand is deprecated now. See https://github.com/khulnasoft/tunnel/discussions/2119")
 
 			if err := clientFlags.Bind(cmd); err != nil {
 				return xerrors.Errorf("flag bind error: %w", err)

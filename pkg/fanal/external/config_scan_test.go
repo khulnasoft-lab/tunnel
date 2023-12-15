@@ -6,9 +6,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/external"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/handler/misconf"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/external"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/handler/misconf"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 func TestConfigScanner_Scan(t *testing.T) {

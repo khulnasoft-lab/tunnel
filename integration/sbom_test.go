@@ -12,8 +12,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func TestSBOM(t *testing.T) {

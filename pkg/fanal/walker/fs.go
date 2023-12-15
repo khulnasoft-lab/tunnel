@@ -9,7 +9,7 @@ import (
 	"golang.org/x/xerrors"
 
 	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/log"
 )
 
 type FS struct {

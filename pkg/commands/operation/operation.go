@@ -8,17 +8,17 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/flag"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/google/wire"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-db/pkg/metadata"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils"
+	"github.com/khulnasoft/tunnel-db/pkg/metadata"
+	"github.com/khulnasoft/tunnel/pkg/db"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/utils"
 )
 
 // SuperSet binds cache dependencies

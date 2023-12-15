@@ -8,16 +8,16 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy-kubernetes/pkg/artifacts"
-	"github.com/aquasecurity/trivy-kubernetes/pkg/k8s"
-	cmd "github.com/aquasecurity/trivy/pkg/commands/artifact"
-	cr "github.com/aquasecurity/trivy/pkg/compliance/report"
-	"github.com/aquasecurity/trivy/pkg/compliance/spec"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/k8s/report"
-	"github.com/aquasecurity/trivy/pkg/k8s/scanner"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-kubernetes/pkg/artifacts"
+	"github.com/khulnasoft/tunnel-kubernetes/pkg/k8s"
+	cmd "github.com/khulnasoft/tunnel/pkg/commands/artifact"
+	cr "github.com/khulnasoft/tunnel/pkg/compliance/report"
+	"github.com/khulnasoft/tunnel/pkg/compliance/spec"
+	"github.com/khulnasoft/tunnel/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/k8s/report"
+	"github.com/khulnasoft/tunnel/pkg/k8s/scanner"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 const (

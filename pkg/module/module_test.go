@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/module"
-	"github.com/aquasecurity/trivy/pkg/scanner/post"
-	"github.com/aquasecurity/trivy/pkg/utils"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/module"
+	"github.com/khulnasoft/tunnel/pkg/scanner/post"
+	"github.com/khulnasoft/tunnel/pkg/utils"
 )
 
 func TestManager_Register(t *testing.T) {

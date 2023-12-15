@@ -5,9 +5,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/compliance/spec"
-	"github.com/aquasecurity/trivy/pkg/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/compliance/spec"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 const (

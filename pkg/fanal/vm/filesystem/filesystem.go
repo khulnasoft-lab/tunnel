@@ -8,7 +8,7 @@ import (
 	lru "github.com/hashicorp/golang-lru"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/vm"
+	"github.com/khulnasoft/tunnel/pkg/fanal/vm"
 )
 
 const cacheSize = 2048

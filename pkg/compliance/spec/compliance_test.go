@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/aquasecurity/trivy/pkg/compliance/spec"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/compliance/spec"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func TestComplianceSpec_SecurityChecks(t *testing.T) {

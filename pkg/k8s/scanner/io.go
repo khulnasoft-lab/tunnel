@@ -7,9 +7,9 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/log"
 
-	"github.com/aquasecurity/trivy-kubernetes/pkg/artifacts"
+	"github.com/khulnasoft/tunnel-kubernetes/pkg/artifacts"
 )
 
 func createTempFile(artifact *artifacts.Artifact) (string, error) {

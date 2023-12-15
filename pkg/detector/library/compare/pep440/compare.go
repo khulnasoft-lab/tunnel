@@ -4,8 +4,8 @@ import (
 	"golang.org/x/xerrors"
 
 	version "github.com/aquasecurity/go-pep440-version"
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/detector/library/compare"
 )
 
 // Comparer represents a comparer for PEP 440

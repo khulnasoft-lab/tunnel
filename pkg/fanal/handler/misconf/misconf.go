@@ -30,12 +30,12 @@ import (
 	"github.com/aquasecurity/defsec/pkg/scanners/rbac"
 	tfscanner "github.com/aquasecurity/defsec/pkg/scanners/terraform"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/config"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/handler"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer/config"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	"github.com/khulnasoft/tunnel/pkg/fanal/handler"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
 )
 
 func init() {

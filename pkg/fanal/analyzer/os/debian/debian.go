@@ -7,11 +7,11 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	aos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	aos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/utils"
 )
 
 func init() {

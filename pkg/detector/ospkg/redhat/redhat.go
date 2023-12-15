@@ -12,15 +12,15 @@ import (
 	"golang.org/x/xerrors"
 	"k8s.io/utils/clock"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	ustrings "github.com/aquasecurity/trivy-db/pkg/utils/strings"
-	redhat "github.com/aquasecurity/trivy-db/pkg/vulnsrc/redhat-oval"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scanner/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	ustrings "github.com/khulnasoft/tunnel-db/pkg/utils/strings"
+	redhat "github.com/khulnasoft/tunnel-db/pkg/vulnsrc/redhat-oval"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/scanner/utils"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 var (

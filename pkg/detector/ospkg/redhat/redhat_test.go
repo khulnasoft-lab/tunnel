@@ -10,13 +10,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy/pkg/dbtest"
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/redhat"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	"github.com/khulnasoft/tunnel/pkg/dbtest"
+	"github.com/khulnasoft/tunnel/pkg/detector/ospkg/redhat"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func TestMain(m *testing.M) {

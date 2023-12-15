@@ -7,9 +7,9 @@ import (
 
 	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
 	godeptypes "github.com/aquasecurity/go-dep-parser/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/licensing"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/licensing"
 )
 
 func Analyze(fileType, filePath string, r dio.ReadSeekerAt, parser godeptypes.Parser) (*analyzer.AnalysisResult, error) {

@@ -8,19 +8,19 @@ import (
 
 	"github.com/aquasecurity/defsec/pkg/errs"
 
-	cmd "github.com/aquasecurity/trivy/pkg/commands/artifact"
+	cmd "github.com/khulnasoft/tunnel/pkg/commands/artifact"
 
-	"github.com/aquasecurity/trivy/pkg/cloud"
+	"github.com/khulnasoft/tunnel/pkg/cloud"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/flag"
 
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/sts"
 
-	"github.com/aquasecurity/trivy/pkg/cloud/aws/scanner"
-	"github.com/aquasecurity/trivy/pkg/cloud/report"
+	"github.com/khulnasoft/tunnel/pkg/cloud/aws/scanner"
+	"github.com/khulnasoft/tunnel/pkg/cloud/report"
 
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/log"
 
 	awsScanner "github.com/aquasecurity/defsec/pkg/scanners/cloud/aws"
 )

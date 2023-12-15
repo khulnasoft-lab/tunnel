@@ -1,7 +1,7 @@
 package serialize
 
 import (
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 // TinyGo doesn't support encoding/json, but github.com/mailru/easyjson for now.

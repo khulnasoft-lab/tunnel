@@ -15,10 +15,10 @@ import (
 	"k8s.io/utils/clock"
 	clocktesting "k8s.io/utils/clock/testing"
 
-	tdb "github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy-db/pkg/metadata"
-	"github.com/aquasecurity/trivy/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/oci"
+	tdb "github.com/khulnasoft/tunnel-db/pkg/db"
+	"github.com/khulnasoft/tunnel-db/pkg/metadata"
+	"github.com/khulnasoft/tunnel/pkg/db"
+	"github.com/khulnasoft/tunnel/pkg/oci"
 )
 
 const mediaType = "application/vnd.aquasec.trivy.db.layer.v1.tar+gzip"

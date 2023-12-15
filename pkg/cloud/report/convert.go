@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws/arn"
 
 	"github.com/aquasecurity/defsec/pkg/scan"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func convertResults(results scan.Results, provider string, scoped []string) map[string]ResultsAtTime {

@@ -3,7 +3,7 @@ package types
 import (
 	stypes "github.com/spdx/tools-golang/spdx"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 type SBOM struct {

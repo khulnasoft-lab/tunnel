@@ -14,8 +14,8 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/log"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/log"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 var lineSep = []byte{'\n'}

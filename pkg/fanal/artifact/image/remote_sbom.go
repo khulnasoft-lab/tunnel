@@ -8,11 +8,11 @@ import (
 
 	"golang.org/x/xerrors"
 
-	sbomatt "github.com/aquasecurity/trivy/pkg/attestation/sbom"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact/sbom"
-	"github.com/aquasecurity/trivy/pkg/fanal/log"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	sbomatt "github.com/khulnasoft/tunnel/pkg/attestation/sbom"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact/sbom"
+	"github.com/khulnasoft/tunnel/pkg/fanal/log"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 var errNoSBOMFound = xerrors.New("remote SBOM not found")

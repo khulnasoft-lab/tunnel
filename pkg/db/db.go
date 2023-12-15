@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aquasecurity/trivy/pkg/oci"
+	"github.com/khulnasoft/tunnel/pkg/oci"
 
 	"golang.org/x/xerrors"
 	"k8s.io/utils/clock"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy-db/pkg/metadata"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	"github.com/khulnasoft/tunnel-db/pkg/metadata"
+	"github.com/khulnasoft/tunnel/pkg/log"
 )
 
 const (

@@ -8,19 +8,19 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/config"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer/config"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/all"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/language/python/pip"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os/alpine"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/pkg/apk"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/secret"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/handler/misconf"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/handler/sysfile"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/config/all"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/language/python/pip"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os/alpine"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/pkg/apk"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/secret"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/handler/misconf"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/handler/sysfile"
 )
 
 func TestArtifact_Inspect(t *testing.T) {

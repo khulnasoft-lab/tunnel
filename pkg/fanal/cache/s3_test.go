@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 type mockS3Client struct {

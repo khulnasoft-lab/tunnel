@@ -4,14 +4,14 @@ import (
 	"context"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/flag"
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-kubernetes/pkg/artifacts"
-	"github.com/aquasecurity/trivy-kubernetes/pkg/k8s"
-	"github.com/aquasecurity/trivy-kubernetes/pkg/trivyk8s"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel-kubernetes/pkg/artifacts"
+	"github.com/khulnasoft/tunnel-kubernetes/pkg/k8s"
+	"github.com/khulnasoft/tunnel-kubernetes/pkg/trivyk8s"
+	"github.com/khulnasoft/tunnel/pkg/log"
 )
 
 // resourceRun runs scan on kubernetes cluster

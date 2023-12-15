@@ -7,13 +7,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	fos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/rpc/common"
-	"github.com/aquasecurity/trivy/rpc/scanner"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	fos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	"github.com/khulnasoft/tunnel/rpc/common"
+	"github.com/khulnasoft/tunnel/rpc/scanner"
 )
 
 func TestConvertToRpcPkgs(t *testing.T) {

@@ -6,13 +6,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
 
 	"github.com/stretchr/testify/assert"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/walker"
+	"github.com/khulnasoft/tunnel/pkg/fanal/walker"
 )
 
 func TestLayerTar_Walk(t *testing.T) {

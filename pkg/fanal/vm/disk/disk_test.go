@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/vm"
-	"github.com/aquasecurity/trivy/pkg/fanal/vm/disk"
+	"github.com/khulnasoft/tunnel/pkg/fanal/vm"
+	"github.com/khulnasoft/tunnel/pkg/fanal/vm/disk"
 )
 
 func TestNew(t *testing.T) {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"sort"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	misconf "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	misconf "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/config"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 type Option struct {

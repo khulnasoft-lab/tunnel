@@ -14,13 +14,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/utils"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/rpc/common"
-	rpc "github.com/aquasecurity/trivy/rpc/scanner"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/utils"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	"github.com/khulnasoft/tunnel/rpc/common"
+	rpc "github.com/khulnasoft/tunnel/rpc/scanner"
 )
 
 func TestScanner_Scan(t *testing.T) {

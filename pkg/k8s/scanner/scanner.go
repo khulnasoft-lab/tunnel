@@ -8,13 +8,13 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-kubernetes/pkg/artifacts"
-	cmd "github.com/aquasecurity/trivy/pkg/commands/artifact"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/k8s/report"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scanner/local"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-kubernetes/pkg/artifacts"
+	cmd "github.com/khulnasoft/tunnel/pkg/commands/artifact"
+	"github.com/khulnasoft/tunnel/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/k8s/report"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/scanner/local"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 type Scanner struct {

@@ -7,10 +7,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	r "github.com/aquasecurity/trivy/pkg/rpc"
-	"github.com/aquasecurity/trivy/pkg/types"
-	rpc "github.com/aquasecurity/trivy/rpc/scanner"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	r "github.com/khulnasoft/tunnel/pkg/rpc"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	rpc "github.com/khulnasoft/tunnel/rpc/scanner"
 )
 
 type options struct {

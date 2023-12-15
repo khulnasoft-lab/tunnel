@@ -11,8 +11,8 @@ import (
 	"golang.org/x/term"
 
 	"github.com/aquasecurity/table"
-	pkgReport "github.com/aquasecurity/trivy/pkg/report/table"
-	"github.com/aquasecurity/trivy/pkg/types"
+	pkgReport "github.com/khulnasoft/tunnel/pkg/report/table"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 type sortableRow struct {

@@ -7,12 +7,12 @@
 package server
 
 import (
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/scanner/local"
-	"github.com/aquasecurity/trivy/pkg/vulnerability"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	"github.com/khulnasoft/tunnel/pkg/detector/ospkg"
+	"github.com/khulnasoft/tunnel/pkg/fanal/applier"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/scanner/local"
+	"github.com/khulnasoft/tunnel/pkg/vulnerability"
 )
 
 // Injectors from inject.go:

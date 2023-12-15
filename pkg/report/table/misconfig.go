@@ -7,13 +7,13 @@ import (
 
 	"github.com/fatih/color"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
 
 	"golang.org/x/crypto/ssh/terminal"
 
 	"github.com/aquasecurity/tml"
 
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 const (

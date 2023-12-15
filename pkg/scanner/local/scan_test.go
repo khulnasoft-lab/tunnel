@@ -10,15 +10,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/dbtest"
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	fos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/vulnerability"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/dbtest"
+	"github.com/khulnasoft/tunnel/pkg/detector/ospkg"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	fos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/vulnerability"
 )
 
 func TestScanner_Scan(t *testing.T) {

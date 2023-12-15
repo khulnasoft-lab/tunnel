@@ -7,8 +7,8 @@ import (
 	"github.com/spdx/tools-golang/tvsaver"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/sbom/spdx"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/sbom/spdx"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 type Writer struct {

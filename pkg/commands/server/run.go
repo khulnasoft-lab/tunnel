@@ -5,13 +5,13 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy/pkg/commands/operation"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/module"
-	rpcServer "github.com/aquasecurity/trivy/pkg/rpc/server"
-	"github.com/aquasecurity/trivy/pkg/utils"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	"github.com/khulnasoft/tunnel/pkg/commands/operation"
+	"github.com/khulnasoft/tunnel/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/module"
+	rpcServer "github.com/khulnasoft/tunnel/pkg/rpc/server"
+	"github.com/khulnasoft/tunnel/pkg/utils"
 )
 
 // Run runs the scan

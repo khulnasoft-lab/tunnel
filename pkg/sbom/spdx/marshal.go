@@ -12,10 +12,10 @@ import (
 	"golang.org/x/xerrors"
 	"k8s.io/utils/clock"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/scanner/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/purl"
+	"github.com/khulnasoft/tunnel/pkg/scanner/utils"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 const (

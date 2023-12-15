@@ -13,10 +13,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	"github.com/khulnasoft/tunnel/pkg/fanal/applier"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 const (

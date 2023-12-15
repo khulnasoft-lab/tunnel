@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 type DetectedLicense struct {

@@ -7,13 +7,13 @@ import (
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/types"
-	"github.com/aquasecurity/trivy/rpc/cache"
-	"github.com/aquasecurity/trivy/rpc/common"
-	"github.com/aquasecurity/trivy/rpc/scanner"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	"github.com/khulnasoft/tunnel/rpc/cache"
+	"github.com/khulnasoft/tunnel/rpc/common"
+	"github.com/khulnasoft/tunnel/rpc/scanner"
 )
 
 // ConvertToRPCPkgs returns the list of RPC package objects

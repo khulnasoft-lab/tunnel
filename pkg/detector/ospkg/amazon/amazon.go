@@ -10,11 +10,11 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/amazon"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scanner/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/amazon"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/scanner/utils"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 var (

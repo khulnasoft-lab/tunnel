@@ -8,11 +8,11 @@ import (
 	"github.com/owenrumney/go-sarif/v2/sarif"
 	"github.com/stretchr/testify/assert"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/report"
-	"github.com/aquasecurity/trivy/pkg/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/report"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func toPtr[T any](v T) *T {
@@ -292,7 +292,7 @@ func TestReportWriter_Sarif(t *testing.T) {
 					DefaultConfiguration: &sarif.ReportingConfiguration{
 						Level: "error",
 					},
-					HelpURI: toPtr("https://github.com/aquasecurity/trivy/blob/main/pkg/fanal/secret/builtin-rules.go"),
+					HelpURI: toPtr("https://github.com/khulnasoft/tunnel/blob/main/pkg/fanal/secret/builtin-rules.go"),
 					Properties: map[string]interface{}{
 						"tags": []interface{}{
 							"secret",

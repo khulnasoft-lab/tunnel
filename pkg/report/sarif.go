@@ -11,7 +11,7 @@ import (
 	"github.com/owenrumney/go-sarif/v2/sarif"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 const (
@@ -28,7 +28,7 @@ const (
 
 	columnKind = "utf16CodeUnits"
 
-	builtinRulesUrl = "https://github.com/aquasecurity/trivy/blob/main/pkg/fanal/secret/builtin-rules.go" // list all secrets
+	builtinRulesUrl = "https://github.com/khulnasoft/tunnel/blob/main/pkg/fanal/secret/builtin-rules.go" // list all secrets
 )
 
 var (
@@ -126,7 +126,7 @@ func (sw SarifWriter) Write(report types.Report) error {
 	if err != nil {
 		return xerrors.Errorf("error creating a new sarif template: %w", err)
 	}
-	sw.run = sarif.NewRunWithInformationURI("Trivy", "https://github.com/aquasecurity/trivy")
+	sw.run = sarif.NewRunWithInformationURI("Trivy", "https://github.com/khulnasoft/tunnel")
 	sw.run.Tool.Driver.WithVersion(sw.Version)
 	sw.run.Tool.Driver.WithFullName("Trivy Vulnerability Scanner")
 

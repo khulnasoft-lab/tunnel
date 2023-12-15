@@ -10,8 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/module"
-	"github.com/aquasecurity/trivy/pkg/utils"
+	"github.com/khulnasoft/tunnel/pkg/module"
+	"github.com/khulnasoft/tunnel/pkg/utils"
 )
 
 func TestModule(t *testing.T) {

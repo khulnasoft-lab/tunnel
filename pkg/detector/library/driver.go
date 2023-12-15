@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare/maven"
+	"github.com/khulnasoft/tunnel/pkg/detector/library/compare/maven"
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare/npm"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare/pep440"
-	"github.com/aquasecurity/trivy/pkg/detector/library/compare/rubygems"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	"github.com/khulnasoft/tunnel/pkg/detector/library/compare"
+	"github.com/khulnasoft/tunnel/pkg/detector/library/compare/npm"
+	"github.com/khulnasoft/tunnel/pkg/detector/library/compare/pep440"
+	"github.com/khulnasoft/tunnel/pkg/detector/library/compare/rubygems"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 // NewDriver returns a driver according to the library type

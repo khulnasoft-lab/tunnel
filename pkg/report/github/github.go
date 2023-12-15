@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/clock"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/purl"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/clock"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/purl"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 const (
@@ -79,7 +79,7 @@ func (w Writer) Write(report types.Report) error {
 	snapshot.Detector = Detector{
 		Name:    "trivy",
 		Version: w.Version,
-		Url:     "https://github.com/aquasecurity/trivy",
+		Url:     "https://github.com/khulnasoft/tunnel",
 	}
 	snapshot.Version = 0 // The version of the repository snapshot submission.
 

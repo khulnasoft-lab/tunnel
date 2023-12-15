@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/vm"
+	"github.com/khulnasoft/tunnel/pkg/fanal/vm"
 )
 
 var (

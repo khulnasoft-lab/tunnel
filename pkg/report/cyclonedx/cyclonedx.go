@@ -6,10 +6,10 @@ import (
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	"golang.org/x/xerrors"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/sbom/cyclonedx"
-	"github.com/aquasecurity/trivy/pkg/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/sbom/cyclonedx"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 // Writer implements types.Writer

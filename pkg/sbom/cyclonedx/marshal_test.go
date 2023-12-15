@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aquasecurity/trivy/pkg/sbom/cyclonedx"
+	"github.com/khulnasoft/tunnel/pkg/sbom/cyclonedx"
 
 	cdx "github.com/CycloneDX/cyclonedx-go"
 	v1 "github.com/google/go-containerregistry/pkg/v1"
@@ -15,12 +15,12 @@ import (
 	"github.com/stretchr/testify/require"
 	fake "k8s.io/utils/clock/testing"
 
-	dtypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	fos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/report"
-	"github.com/aquasecurity/trivy/pkg/types"
+	dtypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	fos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/report"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func TestMarshaler_Marshal(t *testing.T) {

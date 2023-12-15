@@ -17,11 +17,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	"github.com/aquasecurity/trivy-db/pkg/metadata"
-	"github.com/aquasecurity/trivy/pkg/commands"
-	"github.com/aquasecurity/trivy/pkg/dbtest"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	"github.com/khulnasoft/tunnel-db/pkg/metadata"
+	"github.com/khulnasoft/tunnel/pkg/commands"
+	"github.com/khulnasoft/tunnel/pkg/dbtest"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 var update = flag.Bool("update", false, "update golden files")

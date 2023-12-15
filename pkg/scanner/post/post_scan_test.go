@@ -7,13 +7,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/scanner/post"
+	"github.com/khulnasoft/tunnel/pkg/scanner/post"
 
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 type testPostScanner struct{}

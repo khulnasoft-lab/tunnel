@@ -14,17 +14,17 @@ import (
 	"golang.org/x/xerrors"
 
 	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
-	aos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
+	aos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/command/apk"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/language/ruby/bundler"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os/alpine"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os/ubuntu"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/pkg/apk"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/repo/apk"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/handler/all"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/command/apk"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/language/ruby/bundler"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os/alpine"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os/ubuntu"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/pkg/apk"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/repo/apk"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/handler/all"
 )
 
 type mockConfigAnalyzer struct{}

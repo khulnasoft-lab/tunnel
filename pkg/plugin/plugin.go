@@ -12,9 +12,9 @@ import (
 	"golang.org/x/xerrors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/aquasecurity/trivy/pkg/downloader"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/utils"
+	"github.com/khulnasoft/tunnel/pkg/downloader"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/utils"
 )
 
 const (
@@ -25,8 +25,8 @@ var (
 	pluginsRelativeDir = filepath.Join(".trivy", "plugins")
 
 	officialPlugins = map[string]string{
-		"kubectl": "github.com/aquasecurity/trivy-plugin-kubectl",
-		"aqua":    "github.com/aquasecurity/trivy-plugin-aqua",
+		"kubectl": "github.com/khulnasoft/tunnel-plugin-kubectl",
+		"aqua":    "github.com/khulnasoft/tunnel-plugin-aqua",
 	}
 )
 
@@ -136,7 +136,7 @@ func (p Plugin) dir() (string, error) {
 // Install installs a plugin
 func Install(ctx context.Context, url string, force bool) (Plugin, error) {
 	// Replace short names with full qualified names
-	// e.g. kubectl => github.com/aquasecurity/trivy-plugin-kubectl
+	// e.g. kubectl => github.com/khulnasoft/tunnel-plugin-kubectl
 	if v, ok := officialPlugins[url]; ok {
 		url = v
 	}

@@ -3,8 +3,8 @@ package report_test
 import (
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/compliance/report"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/compliance/report"
+	"github.com/khulnasoft/tunnel/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"k8s.io/utils/pointer"
 )

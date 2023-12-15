@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
 
 	"github.com/docker/docker/client"
 	"github.com/docker/go-connections/nat"
@@ -21,14 +21,14 @@ import (
 	testcontainers "github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/all"
-	"github.com/aquasecurity/trivy/pkg/fanal/applier"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	aimage "github.com/aquasecurity/trivy/pkg/fanal/artifact/image"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/image"
-	testdocker "github.com/aquasecurity/trivy/pkg/fanal/test/integration/docker"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/all"
+	"github.com/khulnasoft/tunnel/pkg/fanal/applier"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	aimage "github.com/khulnasoft/tunnel/pkg/fanal/artifact/image"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/fanal/image"
+	testdocker "github.com/khulnasoft/tunnel/pkg/fanal/test/integration/docker"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 const (

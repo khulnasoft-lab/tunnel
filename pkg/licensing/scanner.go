@@ -3,8 +3,8 @@ package licensing
 import (
 	"golang.org/x/exp/slices"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 type ScannerOption struct {

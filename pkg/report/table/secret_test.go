@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy/pkg/report/table"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/report/table"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
 
 	"github.com/stretchr/testify/assert"
 )

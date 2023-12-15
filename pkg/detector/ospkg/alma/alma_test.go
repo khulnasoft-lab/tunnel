@@ -8,13 +8,13 @@ import (
 	"github.com/stretchr/testify/require"
 	fake "k8s.io/utils/clock/testing"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy/pkg/dbtest"
-	"github.com/aquasecurity/trivy/pkg/detector/ospkg/alma"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	"github.com/khulnasoft/tunnel/pkg/dbtest"
+	"github.com/khulnasoft/tunnel/pkg/detector/ospkg/alma"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func TestScanner_Detect(t *testing.T) {
@@ -85,7 +85,7 @@ func TestScanner_Detect(t *testing.T) {
 						SrcEpoch:        1,
 						SrcVersion:      "1.14.1",
 						SrcRelease:      "8.module_el8.3.0+2165+af250afe.alma",
-						Modularitylabel: "", // ref: https://bugs.almalinux.org/view.php?id=173 ,  https://github.com/aquasecurity/trivy/issues/2342#issuecomment-1158459628
+						Modularitylabel: "", // ref: https://bugs.almalinux.org/view.php?id=173 ,  https://github.com/khulnasoft/tunnel/issues/2342#issuecomment-1158459628
 						Licenses:        []string{"BSD"},
 						Layer:           ftypes.Layer{},
 					},

@@ -9,7 +9,7 @@ import (
 	"golang.org/x/xerrors"
 
 	sp "github.com/aquasecurity/defsec/pkg/spec"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 type Severity string

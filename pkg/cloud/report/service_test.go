@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/aquasecurity/trivy-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/types"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/flag"
 
 	"github.com/stretchr/testify/assert"
 

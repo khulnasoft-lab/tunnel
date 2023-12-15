@@ -6,13 +6,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/analyzer"
+	"github.com/khulnasoft/tunnel/pkg/fanal/analyzer"
 
 	"golang.org/x/xerrors"
 
-	aos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/fanal/utils"
+	aos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/utils"
 )
 
 const centosAnalyzerVersion = 1

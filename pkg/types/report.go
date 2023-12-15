@@ -5,7 +5,7 @@ import (
 
 	v1 "github.com/google/go-containerregistry/pkg/v1" // nolint: goimports
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 var Compliances = []string{ComplianceNsa}

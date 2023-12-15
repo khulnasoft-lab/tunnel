@@ -13,7 +13,7 @@ import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 
-	common "github.com/aquasecurity/trivy/rpc/common"
+	common "github.com/khulnasoft/tunnel/rpc/common"
 )
 
 const (
@@ -268,7 +268,7 @@ func (x *ScanResponse) GetResults() []*Result {
 	return nil
 }
 
-// Result is the same as github.com/aquasecurity/trivy/pkg/report.Result
+// Result is the same as github.com/khulnasoft/tunnel/pkg/report.Result
 type Result struct {
 	state         protoimpl.MessageState
 	sizeCache     protoimpl.SizeCache

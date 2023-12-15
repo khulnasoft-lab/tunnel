@@ -11,10 +11,10 @@ import (
 	"github.com/go-git/go-git/v5/plumbing/transport/http"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact/local"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact/local"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 type Artifact struct {
@@ -118,7 +118,7 @@ func newURL(rawurl string) (*url.URL, error) {
 		return nil, xerrors.Errorf("url parse error: %w", err)
 	}
 	// "https://" can be omitted
-	// e.g. github.com/aquasecurity/trivy
+	// e.g. github.com/khulnasoft/tunnel
 	if u.Scheme == "" {
 		u.Scheme = "https"
 	}

@@ -8,12 +8,12 @@ import (
 
 	version "github.com/knqyf263/go-rpm-version"
 
-	susecvrf "github.com/aquasecurity/trivy-db/pkg/vulnsrc/suse-cvrf"
-	fos "github.com/aquasecurity/trivy/pkg/fanal/analyzer/os"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
-	"github.com/aquasecurity/trivy/pkg/scanner/utils"
-	"github.com/aquasecurity/trivy/pkg/types"
+	susecvrf "github.com/khulnasoft/tunnel-db/pkg/vulnsrc/suse-cvrf"
+	fos "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/os"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/scanner/utils"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 var (

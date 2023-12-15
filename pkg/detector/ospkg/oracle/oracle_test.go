@@ -9,13 +9,13 @@ import (
 	"k8s.io/utils/clock"
 	clocktesting "k8s.io/utils/clock/testing"
 
-	"github.com/aquasecurity/trivy-db/pkg/db"
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	oracleoval "github.com/aquasecurity/trivy-db/pkg/vulnsrc/oracle-oval"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy/pkg/dbtest"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/db"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	oracleoval "github.com/khulnasoft/tunnel-db/pkg/vulnsrc/oracle-oval"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	"github.com/khulnasoft/tunnel/pkg/dbtest"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 func TestScanner_IsSupportedVersion(t *testing.T) {

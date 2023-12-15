@@ -9,9 +9,9 @@ import (
 
 	"github.com/aquasecurity/defsec/pkg/framework"
 
-	"github.com/aquasecurity/trivy/pkg/cloud/aws/cache"
-	"github.com/aquasecurity/trivy/pkg/flag"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/cloud/aws/cache"
+	"github.com/khulnasoft/tunnel/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/log"
 
 	"github.com/aquasecurity/defsec/pkg/scan"
 	"github.com/aquasecurity/defsec/pkg/scanners/cloud/aws"

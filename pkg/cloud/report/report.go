@@ -6,19 +6,19 @@ import (
 	"sort"
 	"time"
 
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
 
 	"github.com/aquasecurity/tml"
 
-	"github.com/aquasecurity/trivy/pkg/flag"
+	"github.com/khulnasoft/tunnel/pkg/flag"
 
-	"github.com/aquasecurity/trivy/pkg/report"
+	"github.com/khulnasoft/tunnel/pkg/report"
 
-	"github.com/aquasecurity/trivy/pkg/result"
+	"github.com/khulnasoft/tunnel/pkg/result"
 
 	"github.com/aquasecurity/defsec/pkg/scan"
-	pkgReport "github.com/aquasecurity/trivy/pkg/report"
-	"github.com/aquasecurity/trivy/pkg/types"
+	pkgReport "github.com/khulnasoft/tunnel/pkg/report"
+	"github.com/khulnasoft/tunnel/pkg/types"
 )
 
 const (

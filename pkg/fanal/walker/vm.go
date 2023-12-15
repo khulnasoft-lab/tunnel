@@ -15,8 +15,8 @@ import (
 	"golang.org/x/xerrors"
 
 	dio "github.com/aquasecurity/go-dep-parser/pkg/io"
-	"github.com/aquasecurity/trivy/pkg/fanal/vm/filesystem"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/fanal/vm/filesystem"
+	"github.com/khulnasoft/tunnel/pkg/log"
 )
 
 var requiredDiskName = []string{

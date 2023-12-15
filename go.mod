@@ -1,4 +1,4 @@
-module github.com/aquasecurity/trivy
+module github.com/khulnasoft/tunnel
 
 go 1.19
 

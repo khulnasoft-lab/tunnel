@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/xerrors"
 
-	dbTypes "github.com/aquasecurity/trivy-db/pkg/types"
-	"github.com/aquasecurity/trivy-db/pkg/utils"
-	"github.com/aquasecurity/trivy-db/pkg/vulnsrc/vulnerability"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	ftypes "github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/scanner"
-	"github.com/aquasecurity/trivy/pkg/types"
-	rpcCache "github.com/aquasecurity/trivy/rpc/cache"
-	"github.com/aquasecurity/trivy/rpc/common"
-	rpcScanner "github.com/aquasecurity/trivy/rpc/scanner"
+	dbTypes "github.com/khulnasoft/tunnel-db/pkg/types"
+	"github.com/khulnasoft/tunnel-db/pkg/utils"
+	"github.com/khulnasoft/tunnel-db/pkg/vulnsrc/vulnerability"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	ftypes "github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/scanner"
+	"github.com/khulnasoft/tunnel/pkg/types"
+	rpcCache "github.com/khulnasoft/tunnel/rpc/cache"
+	"github.com/khulnasoft/tunnel/rpc/common"
+	rpcScanner "github.com/khulnasoft/tunnel/rpc/scanner"
 )
 
 type mockCache struct {

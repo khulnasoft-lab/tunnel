@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/config/all"
-	_ "github.com/aquasecurity/trivy/pkg/fanal/analyzer/secret"
-	"github.com/aquasecurity/trivy/pkg/fanal/artifact"
-	"github.com/aquasecurity/trivy/pkg/fanal/cache"
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/config/all"
+	_ "github.com/khulnasoft/tunnel/pkg/fanal/analyzer/secret"
+	"github.com/khulnasoft/tunnel/pkg/fanal/artifact"
+	"github.com/khulnasoft/tunnel/pkg/fanal/cache"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
 )
 
 func setupGitServer() (*httptest.Server, error) {

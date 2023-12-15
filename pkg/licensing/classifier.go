@@ -9,8 +9,8 @@ import (
 	"github.com/google/licenseclassifier/v2/assets"
 	"golang.org/x/xerrors"
 
-	"github.com/aquasecurity/trivy/pkg/fanal/types"
-	"github.com/aquasecurity/trivy/pkg/log"
+	"github.com/khulnasoft/tunnel/pkg/fanal/types"
+	"github.com/khulnasoft/tunnel/pkg/log"
 )
 
 var cf *classifier.Classifier
