@@ -66,7 +66,7 @@ require (
 	github.com/samber/lo v1.33.0
 	github.com/secure-systems-lab/go-securesystemslib v0.4.0
 	github.com/sigstore/rekor v1.0.0
-	github.com/sosedoff/gitkit v0.3.0
+	github.com/sosedoff/gitkit v0.4.0
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.13.0
