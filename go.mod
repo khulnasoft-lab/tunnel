@@ -5,7 +5,7 @@ go 1.19
 replace github.com/aquasecurity/trivy => github.com/khulnasoft-lab/tunnel v0.35.0
 
 require (
-	github.com/CycloneDX/cyclonedx-go v0.6.0
+	github.com/CycloneDX/cyclonedx-go v0.8.0
 	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/NYTimes/gziphandler v1.1.1
 	github.com/alicebob/miniredis/v2 v2.23.0
@@ -70,7 +70,7 @@ require (
 	github.com/spf13/cobra v1.6.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.13.0
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.4
 	github.com/testcontainers/testcontainers-go v0.15.0
 	github.com/tetratelabs/wazero v1.0.0-pre.3
 	github.com/twitchtv/twirp v8.1.2+incompatible
