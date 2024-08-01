@@ -25,7 +25,7 @@ require (
 	github.com/aquasecurity/trivy-db v0.0.0-20220627104749-930461748b63
 	github.com/aquasecurity/trivy-kubernetes v0.3.1-0.20221021174315-8d74450b4506
 	github.com/aws/aws-sdk-go v1.44.136
-	github.com/aws/aws-sdk-go-v2 v1.17.1
+	github.com/aws/aws-sdk-go-v2 v1.30.3
 	github.com/aws/aws-sdk-go-v2/config v1.18.3
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.63.1
 	github.com/aws/aws-sdk-go-v2/service/sts v1.17.5
@@ -134,7 +134,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.25 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.13.8 // indirect
 	github.com/aws/aws-sdk-go-v2/service/workspaces v1.23.0 // indirect
-	github.com/aws/smithy-go v1.13.4 // indirect
+	github.com/aws/smithy-go v1.20.3 // indirect
 	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 	github.com/go-openapi/analysis v0.21.4 // indirect
 	github.com/go-openapi/errors v0.20.3 // indirect
