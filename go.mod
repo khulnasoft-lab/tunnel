@@ -56,7 +56,7 @@ require (
 	github.com/google/licenseclassifier/v2 v2.0.0
 	github.com/google/uuid v1.6.0
 	github.com/google/wire v0.6.0
-	github.com/hashicorp/go-getter v1.7.5
+	github.com/hashicorp/go-getter v1.7.6
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-retryablehttp v0.7.7
 	github.com/hashicorp/go-uuid v1.0.3
@@ -87,7 +87,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mitchellh/hashstructure/v2 v2.0.2
 	github.com/mitchellh/mapstructure v1.5.0
-	github.com/moby/buildkit v0.15.1
+	github.com/moby/buildkit v0.15.2
 	github.com/open-policy-agent/opa v0.67.1
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0
@@ -128,7 +128,7 @@ require (
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028
 	google.golang.org/protobuf v1.34.2
 	gopkg.in/yaml.v3 v3.0.1
-	helm.sh/helm/v3 v3.15.3
+	helm.sh/helm/v3 v3.15.4
 	k8s.io/api v0.30.3
 	k8s.io/utils v0.0.0-20231127182322-b307cd553661
 	modernc.org/sqlite v1.32.0
@@ -200,7 +200,7 @@ require (
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
 	github.com/cyberphone/json-canonicalization v0.0.0-20231011164504-785e29786b46 // indirect
-	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
+	github.com/cyphar/filepath-securejoin v0.3.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/digitorus/pkcs7 v0.0.0-20230818184609-3a137a874352 // indirect
@@ -391,15 +391,15 @@ require (
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
-	k8s.io/apiextensions-apiserver v0.30.0 // indirect
+	k8s.io/apiextensions-apiserver v0.30.3 // indirect
 	k8s.io/apimachinery v0.30.3 // indirect
-	k8s.io/apiserver v0.30.0 // indirect
-	k8s.io/cli-runtime v0.30.2 // indirect
-	k8s.io/client-go v0.30.2 // indirect
-	k8s.io/component-base v0.30.1 // indirect
+	k8s.io/apiserver v0.30.3 // indirect
+	k8s.io/cli-runtime v0.30.3 // indirect
+	k8s.io/client-go v0.30.3 // indirect
+	k8s.io/component-base v0.30.3 // indirect
 	k8s.io/klog/v2 v2.120.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20240228011516-70dd3763d340 // indirect
-	k8s.io/kubectl v0.30.1 // indirect
+	k8s.io/kubectl v0.30.3 // indirect
 	modernc.org/gc/v3 v3.0.0-20240107210532-573471604cb6 // indirect
 	modernc.org/libc v1.55.3 // indirect
 	modernc.org/mathutil v1.6.0 // indirect
